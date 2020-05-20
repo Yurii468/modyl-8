@@ -94,6 +94,11 @@ a {
   background-color: transparent;
 }
 .logo-img {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-weight: bold;
   margin: 0 auto;
   margin-top: 116px;
   margin-bottom: 40px;
@@ -310,6 +315,7 @@ a {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    margin-bottom: 160px;
   }
   .signup {
     margin-left: 340px;
@@ -317,5 +323,37 @@ a {
   .logo-img {
     margin-top: 0;
     margin-bottom: 0;
+  }
+  .holliday-btn {
+    margin-bottom: 238px;
+  }
+  .partner {
+    width: 492px;
+    margin: 0 auto;
+  }
+  .layer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 960px) {
+  .container {
+    width: 960px;
+    padding: 0;
+  }
+  .header {
+    background-image: url(../img/header-3.png);
+  }
+  .layer {
+    width: 940px;
+    margin: 0 auto;
+  }
+  .partner {
+    width: 940px;
+    margin: 0 auto;
+  }
+  .partners-holiday {
+    margin: 0 auto;
   }
 }
