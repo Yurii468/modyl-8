@@ -194,7 +194,6 @@ a {
   height: 122px;
 }
 .card-3::after {
-  font-display: block;
   position: absolute;
   background-image: url(../img/icon-1.png);
   content: '';
@@ -219,7 +218,6 @@ a {
   height: 122px;
 }
 .card-4::after {
-  font-display: block;
   position: absolute;
   background-image: url(../img/icon-2.png);
   content: '';
@@ -244,7 +242,6 @@ a {
   height: 122px;
 }
 .card-5::after {
-  font-display: block;
   position: absolute;
   background-image: url(../img/icon-3.png);
   content: '';
@@ -269,7 +266,6 @@ a {
   height: 122px;
 }
 .card-6::after {
-  font-display: block;
   position: absolute;
   background-image: url(../img/icon-4.png);
   content: '';
