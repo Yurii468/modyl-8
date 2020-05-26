@@ -59,11 +59,15 @@ a {
   padding: 0 15px;
 }
 .header {
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   background-image: url(../img/header-1.png);
   background-color: rgb(26, 25, 21);
+}
+.text {
+  width: 258px;
 }
 .site-logo {
   margin: 0 auto;
@@ -159,6 +163,8 @@ a {
   width: 260px;
 }
 .partners-holiday {
+  font-family: 'Montserrat';
+  font-weight: 700;
   padding-top: 70px;
   padding-bottom: 20px;
 }
@@ -304,6 +310,7 @@ a {
     width: 748px;
   }
   .header {
+    width: 100%;
     background-image: url(../img/header-2.png);
   }
   .site-logo {
@@ -315,6 +322,9 @@ a {
   }
   .signup {
     margin-left: 340px;
+  }
+  .text {
+    width: 286px;
   }
   .logo-img {
     margin-top: 0;
@@ -335,10 +345,20 @@ a {
 }
 @media (min-width: 960px) {
   .container {
-    width: 960px;
+    width: 940px;
     padding: 0;
   }
+  .heading {
+    text-align: center;
+    width: 500px;
+    font-size: 52px;
+    line-height: 62px;
+  }
+  .promo {
+    width: 460px;
+  }
   .header {
+    width: 100%;
     background-image: url(../img/header-3.png);
   }
   .layer {
@@ -351,5 +371,9 @@ a {
   }
   .partners-holiday {
     margin: 0 auto;
+  }
+  .text {
+    margin: 0 auto;
+    width: 286px;
   }
 }
